@@ -31,7 +31,8 @@ def printer(array)
     puts list
   end
   
-  assign_rooms(array).each do ||
+  assign_rooms(array).each do |list|
+    puts list
 end
 # assign_rooms(names)
     
